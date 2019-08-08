@@ -29,5 +29,5 @@ for(let v of Object.values(tmp)){
     group.unshift(v)
   }
  }
-  return group.length?group.length>1:false
+  return group.length?group[0]>1:false
 }
